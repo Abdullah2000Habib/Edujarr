@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap');
+/* font-family: 'Revalia', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Saira', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+/* font-family: 'Rowdies', cursive; */
+
+:root {
+  --main-color: linear-gradient(95deg, #331DA8 0%, #865AEF 100.96%);
+  --bg-color-button: linear-gradient(96deg, #3023B2 1%, #7F56D9 100.05%);
+  --green-color-1: #007b80;
+  --green-color-2: #4BE5CA;
+  --black-color-1: #1B2336;
+  --black-color-2: #4A4A4A;
+  --black-color-3: #4F547B;
+  --black-color-4: #4E596B;
+  --black-color-5: #324361;
+  --black-color-6: #5E6775;
+  --black-color-7: #1D1D45;
+  --black-color-8: #7E7EAA;
+  --white-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  /* color: #fff !important; */
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+/* Start Header Style */
+.logo-title {
+  font-family: 'Revalia', cursive;
+  color: var(--black-color-1);
+}
+
+.logo-title>span {
+  color: var(--green-color-1);
+}
+
+.h-link {
+  font-family: 'Saira', sans-serif;
+  transition: all 0.3s linear;
+}
+
+.h-link:hover {
+  color: var(--green-color-1) !important;
+}
+
+.h-login {
+  font-family: 'Saira', sans-serif;
+  color: var(--black-color-2);
+  text-decoration: underline;
+}
+
+.h-signup {
+  background: var(--bg-color-button);
+}
+
+
+
+/* ُEnd Header Style */
